@@ -23,12 +23,6 @@ chrome.webNavigation.onCompleted.addListener(() =>
 				name: "Digischool",
 				urlPattern: /https:\/\/www\.digischool\.fr\/(.*?)/,
 				scriptName: 'Digischool.js'
-			},
-
-			{
-				name: "CommentaireCompose",
-				urlPattern: /https:\/\/www\.commentairecompose.fr\/(.*?)/,
-				scriptName: 'CommentaireCompose.js'
 			}
 
 		].forEach((key) => 
