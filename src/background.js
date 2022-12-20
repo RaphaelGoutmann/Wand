@@ -23,6 +23,12 @@ chrome.webNavigation.onCompleted.addListener(() =>
 				name: "Digischool",
 				urlPattern: /https:\/\/www\.digischool\.fr\/(.*?)/,
 				scriptName: 'Digischool.js'
+			},
+
+			{
+				name: "Sciences et Avenir",
+				urlPattern: /https:\/\/www\.sciencesetavenir\.fr\/(.*?)/,
+				scriptName: 'SciencesAvenir.js'
 			}
 
 		].forEach((key) => 
